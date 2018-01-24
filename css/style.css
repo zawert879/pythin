@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	background-color: #bbbbbb; 
+}
+
+body{
+	height: 105%;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+a, a:hover {text-decoration: none;}
+
+main{
+	width: 1140px;
+}
+
+h4{
+	font:36px/36px Arial;
+	color: #586667;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.container{
+	padding-top: 70px;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.Bg{
+	background: #fff url('http://www.newsler.ru/data/content/2017/58522/d98d215c600d39bd5aeb6df978e75672.jpg')  center;
+
+	background-size: cover;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.TextBlock{
+	position: relative;
+    display: block;
+}
+
+.TextTitle{
+	font: bold 64px/64px Arial;
+	color: #586667;
+	margin: 48px 329px 0px 52px;
+}
+
+.sk{
+	width: 773px ;
+	height: 500px ;
+	position: absolute;
+	z-index: 100;	
+}
+
+.Bg:before{
+	content: '';
+	border-bottom: 500px solid white;
+	border-right: 153px solid transparent;
+	height: 0;
+	width: 620px;
+	position: absolute;
+    display: block;
+    opacity: 0.8;
+}
+
+.TitleCollection{
+	font: bold 20px/20px Arial;
+	color: #586667;
+	letter-spacing: 0;
+	margin: 38px 290px 0 52px;
+}
+
+.TitleText {
+	font:20px/20px Arial;
+	color: #586667;
+	letter-spacing: 0;
+	margin: 38px 154px 0px 52px;
+}
+
+.TitleText span{font:bold 20px/20px Arial;}
+
+a.ButtonPokaz{
+	display: inline-block;
+	border: 2px solid #4780e2;
+	color: #4780e2;
+	font:20px Arial;
+    letter-spacing: 0;
+    margin: 38px 154px 0 52px;
+    padding: 22px 36px 20px 0px;
+}
+
+.ButtonPokaz i{
+	width: 0;
+	height: 0;
+	border-top: 9px solid transparent;
+	border-left: 18px solid #4780e2;
+	border-bottom: 9px solid transparent;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+.BlockShop{
+	width: 220px;
+	height: 270px;
+	background-color: #fff;
+	margin:30px 30px 0 30px; 
+	display: flex;
+	flex-direction: column;
+	font: 14px/14px Arial;
+	color: #000;
+	letter-spacing: 0;
+}
+
+.Goods:hover .BlockShopButton {
+	display:block;
+	border: 1px solid #CFCFCF;
+	box-shadow: 0 1px 3px 0 rgba(182,182,182,0.50);
+}
+
+.Goods:hover .BlockShop{
+	border: 1px solid #CFCFCF;
+	border-bottom: 0px;
+	box-shadow: 0 1px 3px 0 rgba(182,182,182,0.50);
+}
+
+.BlockShop p{margin: 8px 0 8px 0;}
+
+.BlockShop article{margin-left: 15px;}
+
+.BlockShop figcaption > span{color: #A4A4A4;}
+
+.BlockShop span{color: #D55917;}
+
+.BlockShopImg{
+	margin: 20% auto 0 auto;
+	display: block;
+	width: 170px;
+	height: 170px;
+	object-fit: cover;
+}
+
+.ShopBloks{display: flex;}
+
+.BlockShopButton{
+	background: #F5F5F5;
+	border: 1px solid #CFCFCF;
+	box-shadow: 0 1px 3px 0 rgba(182,182,182,0.50);
+	width: 220px;
+	height: 39px;
+	display: none;
+	margin-left: 30px;
+	text-align: center;
+	font: 14px/14px Arial;
+	color: #6B6B6B;
+	padding-top: 12px;
+}
